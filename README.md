@@ -3,7 +3,7 @@ Server for the Taxi App ,GraphQL, TypeScript, NodeJS
 
 ### Public Resolvers:
 
-- [ ] Sign In / Sign Up with Facebook
+- [x] Sign In / Sign Up with Facebook
 - [ ] Sign In with Email
 - [ ] Start Phone Number Verification
 - [ ] Complete Phone Number Verification
@@ -12,7 +12,9 @@ Server for the Taxi App ,GraphQL, TypeScript, NodeJS
 ---
 ### Private Resolvers:
 
-- [ ] Verify Email
+- [ ] Generate JWT 
+- [ ] Verify JWT 
+- [ ] Verify Email 
 - [ ] Get My Profile 
 - [ ] Update My Profile
 - [ ] Toggle Driving Mode
