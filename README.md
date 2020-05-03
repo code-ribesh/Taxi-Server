@@ -1,13 +1,18 @@
 # taxi-server
 Server for the Taxi App ,GraphQL, TypeScript, NodeJS
 
-## Resolvers
+### Public Resolvers:
 
 - [ ] Sign In / Sign Up with Facebook
 - [ ] Sign In with Email
 - [ ] Start Phone Number Verification
 - [ ] Complete Phone Number Verification
 - [ ] Sign Up with Email
+
+---
+### Private Resolvers:
+
+- [ ] Verify Email
 - [ ] Get My Profile 
 - [ ] Update My Profile
 - [ ] Toggle Driving Mode
