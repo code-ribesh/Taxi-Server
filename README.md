@@ -7,13 +7,19 @@ Server for the Taxi App ,GraphQL, TypeScript, NodeJS
 - [x] Sign In with Email
 - [x] Start Phone Number Verification
 - [x] Complete Phone Number Verification
-- [ ] Sign Up with Email
+- [x] Sign Up with Email
+
+---
+
+### Authentication: 
+
+- [x] Generate JWT 
+- [x] Verify JWT 
+
 
 ---
 ### Private Resolvers:
 
-- [ ] Generate JWT 
-- [ ] Verify JWT 
 - [ ] Verify Email 
 - [ ] Get My Profile 
 - [ ] Update My Profile

@@ -1,5 +1,6 @@
 import { Resolvers } from "src/types/resolvers";
 import User from "../../../../src/entities/User";
+import creatJWT from "../../../utils/createJWT";
 
 import {
   FacebookConnectMutationArgs,
@@ -34,15 +35,16 @@ const resolvers: Resolvers = {
       }
 
       try {
-          await User.create({
+         const newUser =  await User.create({
           ...args,
           profilePhoto: `http://graph.facebook.com/${fbId}/pictures?type=square`,
         }).save();
+        const token = creatJWT(newUser.id);
 
         return {
           ok: true,
           error: null,
-          token: "Comming Soon, created",
+          token
         };
       } catch (error) {
         return {
