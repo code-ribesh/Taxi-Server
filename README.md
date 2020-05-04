@@ -1,5 +1,5 @@
-# taxi-server
-Server for the Taxi App ,GraphQL, TypeScript, NodeJS
+# taxi-server 
+Server for the Taxi App ,GraphQL, TypeScript, NodeJS 🤩 🤩 🤩
 
 ### Public Resolvers:
 
@@ -17,11 +17,10 @@ Server for the Taxi App ,GraphQL, TypeScript, NodeJS
 - [x] Verify JWT 
 
 
----
 ### Private Resolvers:
 
-- [ ] Verify Email 
 - [x] Get My Profile 
+- [ ] Verify Email 
 - [ ] Update My Profile
 - [ ] Toggle Driving Mode
 - [ ] Report location / Orientation
