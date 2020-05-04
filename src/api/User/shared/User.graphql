@@ -26,6 +26,3 @@ type User {
 
 }
 
-type Query {
- user: User
-}

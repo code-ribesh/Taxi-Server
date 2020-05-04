@@ -21,7 +21,7 @@ Server for the Taxi App ,GraphQL, TypeScript, NodeJS
 ### Private Resolvers:
 
 - [ ] Verify Email 
-- [ ] Get My Profile 
+- [x] Get My Profile 
 - [ ] Update My Profile
 - [ ] Toggle Driving Mode
 - [ ] Report location / Orientation
