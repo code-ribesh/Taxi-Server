@@ -7,5 +7,4 @@ type Place {
  isFav: Boolean!
  createdAt: String!
  updatedAt: String 
-
 }

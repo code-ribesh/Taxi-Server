@@ -20,10 +20,11 @@ const resolvers: Resolvers = {
       try {
         const existingUser = await User.findOne({ fbId });
         if (existingUser) {
+          const token = creatJWT(existingUser.id);
           return {
             ok: true,
             error: null,
-            token: "Comming soon, already",
+            token
           };
         }
       } catch (error) {

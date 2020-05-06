@@ -25,4 +25,3 @@ type User {
  fbId: String
 
 }
-

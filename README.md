@@ -20,8 +20,9 @@ Server for the Taxi App ,GraphQL, TypeScript, NodeJS 🤩 🤩 🤩
 ### Private Resolvers:
 
 - [x] Get My Profile 
-- [ ] Verify Email 
-- [ ] Update My Profile
+- [x] Request Email Verification
+- [x] Complete  Email Verification
+- [x] Update My Profile
 - [ ] Toggle Driving Mode
 - [ ] Report location / Orientation
 - [ ] Add Place 
@@ -33,6 +34,7 @@ Server for the Taxi App ,GraphQL, TypeScript, NodeJS 🤩 🤩 🤩
 - [ ] Get Nearby Rides
 - [ ] Subscribe to Nearby Ride Requests
 - [ ] Subscribe to Ride Status
+- [ ] Send to belongings Deatils
 - [ ] Get Chat Room Message
 - [ ] Subscribe to Chat Room Messages
 - [ ] Send a Chat Message
