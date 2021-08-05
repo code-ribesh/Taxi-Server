@@ -28,7 +28,7 @@
     "morgan": "^1.10.0",
     "pg": "^8.0.3",
     "twilio": "^3.43.0",
-    "typeorm": "^0.2.24"
+    "typeorm": "^0.2.25"
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
